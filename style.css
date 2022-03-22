@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+/* Whole */
+body {
+  background-color: #181818;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  transition: 0.3s;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.whole {
+  width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Title */
+.title {
+  text-align: center;
+}
+#boxy {
+  display: inline-block;
+  font-size: 75px;
+  margin-top: 43px;
+}
+.bracket {
+  top: 40px;
+  position: absolute;
+  margin: 0;
+  display: inline-block;
+  font-size: 90px;
+}
+#bracketL {
+  -webkit-transform: translate(-35px);
+  animation: 1s ease 0s 1 woooL;
+}
+#bracketR {
+  -webkit-transform: translate(1px);
+  animation: 1s ease 0s 1 woooR;
+}
+.hide {
+  position: absolute;
+  width: 130px;
+  height: 90px;
+  background-color: #181818;
+  top: 50px;
+}
+#lh {
+  animation: 1s ease 0s 1 HL;
+  -webkit-transform: translate(189px);
+}
+#lr {
+  animation: 1s ease 0s 1 RL;
+  -webkit-transform: translate(604px);
+}
+@keyframes HL {
+  0% {
+    -webkit-transform: translate(343px);
+  }
+  100% {
+    -webkit-transform: translate(189px);
+  }
+}
+@keyframes RL {
+  0% {
+    -webkit-transform: translate(485px);
+  }
+  100% {
+    -webkit-transform: translate(604px);
+  }
+}
+@keyframes woooL {
+  0% {
+    -webkit-transform: translate(114px);
+  }
+  100% {
+    -webkit-transform: translate(-35px);
+  }
+}
+@keyframes woooR {
+  0% {
+    -webkit-transform: translate(-115px);
+  }
+  100% {
+    -webkit-transform: translate(1px);
+  }
+}
+
+/* Body */
+.heading {
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 0.5;
+}
+.content {
+  display: inline-block;
+}
+.left {
+  width: 500px;
+}
+.right {
+  padding-left: 10px;
+  margin-top: 5px;
+  width: 402px;
+  vertical-align: top;
+}
+.text {
+  margin-top: 1px;
+  text-align: justify;
+}
+.sus {
+  text-decoration: underline;
+}
+#sus1:hover {
+  color: #ffb2b2;
+}
+#sus2:hover {
+  color: #b2e0ff;
+}
+#sus3:hover {
+  color: #f6b2ff;
+}
+.border {
+  border: 9px solid #fff;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+/* Specific */
+#ytBox {
+  min-width: 24rem;
+  min-height: 13.5rem;
+}
+#twitteroof {
+  background-color: #1da1f2;
+  padding: 30px 50px 0px;
+  min-height: 125px;
+}
+#smile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  display: block;
+}
+#smile:hover {
+  font-size: 3rem;
+}
+#twitchoof {
+  background-color: #6441a5;
+  padding: 35px 5px;
+}
+#sussy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 69px;
+  font-weight: bolder;
+  font-style: italic;
+}
+#sussy:hover {
+  font-weight: lighter;
+}
+
+/* Buttons */
+.links {
+  margin-top: 25px;
+  float: right;
+}
+#ohfour {
+  margin-right: 10px;
+  padding: 1rem;
+}
+#ohfour:hover {
+  background-color: #52aa44;
+}
+#demo {
+  margin-right: 15px;
+  width: 130px;
+  padding: 0.4rem;
+}
+#demo:hover {
+  background-color: #ff6666;
+}
+
+/* Among Us */
+.bottom {
+  margin-top: 9rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Mobile */
+@media screen and (max-width: 940px) {
+  #lh {
+    -webkit-transform: translate(-100px);
+  }
+  #lr {
+    -webkit-transform: translate(-200px);
+  }
+  @keyframes HL {
+    0% {
+      -webkit-transform: translate(43px);
+    }
+    100% {
+      -webkit-transform: translate(-100px);
+    }
+  }
+  @keyframes RL {
+    0% {
+      -webkit-transform: translate(200px);
+    }
+    100% {
+      -webkit-transform: translate(310px);
+    }
+  }
+  .whole {
+    max-width: 340px;
+  }
+  #inym {
+    margin-bottom: 30px;
+  }
+  .content {
+    width: 340px;
+  }
+  .right {
+    padding-left: 0px;
+  }
+  #ytBox {
+    min-width: 20rem;
+    min-height: 11.25rem;
+  }
+  .bottom {
+    padding-top: 69px;
+  }
+}
+
+/* Other pages */
+#wallet {
+  top: 15rem;
+  position: relative;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+
+#sad {
+  font-size: 10rem;
+}
+
+#sas {
+  padding-top: 5rem;
+  text-align: center;
+  margin: auto;
+}
